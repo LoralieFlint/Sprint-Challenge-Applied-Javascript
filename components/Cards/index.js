@@ -24,10 +24,12 @@ function cards(article) {
   div4.appendChild(image);
   div3.appendChild(span);
 
+    /* returning the component */
+    return div1;
+}
+
 /* Create a card for each of the articles and add the card to the DOM. */
-const JScard = document.querySelector(".tab").addEventListener("click", (event) =>{
-    
-}) 
+// const JScard = document.querySelector(".tab").addEventListener("click", (event) =>{
 //     const card2 = cards();
 //     const card3 = cards();
 //     const card4 = cards();
@@ -42,10 +44,9 @@ const JScard = document.querySelector(".tab").addEventListener("click", (event) 
 // cardContainer.appendChild(card4);
 // cardContainer.appendChild(card5);
 
-  /* returning the component */
-  return div1;
-}
-const cardItem = document.querySelector('.cards-container');
+
+
+// const cardItem = document.querySelector('.cards-container');
 axios
   .get('https://lambda-times-backend.herokuapp.com/articles')
   .then(response => {
