@@ -35,7 +35,6 @@ function cards(article) {
 //     const card4 = cards();
 //     const card5 = cards();
 
-
 /* appending cards to cards-container class. */
 // const cardContainer = document.querySelector(".tab");
 // cardContainer.appendChild(JScard);
@@ -43,8 +42,6 @@ function cards(article) {
 // cardContainer.appendChild(card3);
 // cardContainer.appendChild(card4);
 // cardContainer.appendChild(card5);
-
-
 
 // const cardItem = document.querySelector('.cards-container');
 axios
@@ -61,7 +58,3 @@ axios
   .catch(error => {
     console.log(error);
   })
-
-
-
-
